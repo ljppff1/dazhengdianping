@@ -21,7 +21,7 @@ import android.widget.TextView;
 /**
  * 签到墙的listview的适配器
  * @author 苦涩
- *
+ *</BR> </BR> By：苦涩 </BR> 联系作者：QQ 534429149
  */
 
 public class SignAdapter extends BaseAdapter {

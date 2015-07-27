@@ -13,6 +13,7 @@ import android.widget.Toast;
 
 /**
  * 登录模块
+ * </BR> </BR> By：苦涩 </BR> 联系作者：QQ 534429149
  * */
 
 public class LoginActivity extends Activity {

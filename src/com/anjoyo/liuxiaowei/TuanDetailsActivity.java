@@ -17,8 +17,11 @@ import android.view.Window;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+
 /**
  * 团购详情模块
+ * 
+ * </BR> </BR> By：苦涩 </BR> 联系作者：QQ 534429149
  * */
 public class TuanDetailsActivity extends Activity implements OnScrollListener {
 
@@ -37,18 +40,19 @@ public class TuanDetailsActivity extends Activity implements OnScrollListener {
 		super.onCreate(savedInstanceState);
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.activity_tuan_details);
-		Bundle bund =  getIntent().getBundleExtra("value");
+		Bundle bund = getIntent().getBundleExtra("value");
 		Values = (ShopInfo) bund.getSerializable("ShopInfo");
 		initView();
 		loadImg = new LoadImg(TuanDetailsActivity.this);
-		mTuan_details_img.setTag( Model.SHOPLISTIMGURL+Values.getIname());
-		Bitmap bit = loadImg.loadImage(mTuan_details_img, Model.SHOPLISTIMGURL+Values.getIname(), new ImageDownloadCallBack() {
+		mTuan_details_img.setTag(Model.SHOPLISTIMGURL + Values.getIname());
+		Bitmap bit = loadImg.loadImage(mTuan_details_img, Model.SHOPLISTIMGURL
+				+ Values.getIname(), new ImageDownloadCallBack() {
 			@Override
 			public void onImageDownload(ImageView imageView, Bitmap bitmap) {
 				mTuan_details_img.setImageBitmap(bitmap);
 			}
 		});
-		if(bit != null){
+		if (bit != null) {
 			mTuan_details_img.setImageBitmap(bit);
 		}
 	}
@@ -83,7 +87,7 @@ public class TuanDetailsActivity extends Activity implements OnScrollListener {
 				TuanDetailsActivity.this.finish();
 				break;
 			}
-			
+
 		}
 	}
 

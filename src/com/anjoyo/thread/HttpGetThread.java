@@ -12,6 +12,8 @@ import com.anjoyo.net.MyGet;
 
 /**
  * 网络Get请求的线程
+ * 
+ * </BR> </BR> By：苦涩 </BR> 联系作者：QQ 534429149
  * */
 public class HttpGetThread implements Runnable {
 

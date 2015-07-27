@@ -27,6 +27,7 @@ import android.widget.ImageView;
  * 一级缓存作用：对于listview当中刚刚滑动过的item显示的图片进行保存
  * 二级缓存作用：对于listview当中很久前查看的图片或已经被释放掉图片
  * 进行保存
+ * </BR> </BR> By：苦涩 </BR> 联系作者：QQ 534429149
  * */
 public class LoadImg {
 

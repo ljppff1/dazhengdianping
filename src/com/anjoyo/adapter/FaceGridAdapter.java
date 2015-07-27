@@ -11,7 +11,7 @@ import android.widget.ImageView;
 /**
  * 表情的GridView的适配器
  * @author 苦涩
- *
+ *</BR> </BR> By：苦涩 </BR> 联系作者：QQ 534429149
  */
 
 public class FaceGridAdapter extends BaseAdapter {

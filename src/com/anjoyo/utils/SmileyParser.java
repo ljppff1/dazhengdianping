@@ -14,6 +14,7 @@ import android.text.style.ImageSpan;
 /**
  * 正则表达式转换点评信息中图文混排的工具类
  * @author 苦涩
+ * </BR> </BR> By：苦涩 </BR> 联系作者：QQ 534429149
  */
 
 public class SmileyParser {

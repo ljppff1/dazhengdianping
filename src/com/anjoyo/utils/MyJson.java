@@ -17,6 +17,7 @@ import com.anjoyo.info.SignInfo;
 /**
  * Json字符串解析工具类
  * @author 苦涩
+ * </BR> </BR> By：苦涩 </BR> 联系作者：QQ 534429149
  */
 
 public class MyJson {

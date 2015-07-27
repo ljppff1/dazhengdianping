@@ -20,6 +20,10 @@ import com.anjoyo.model.Model;
 
 /**
  * 我的post请求方式工具类
+ * 
+ * </BR> </BR> 
+ * By：苦涩 </BR> 
+ * 联系作者：QQ 534429149
  * */
 
 public class MyPost {

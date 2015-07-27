@@ -2,18 +2,25 @@ package com.anjoyo.model;
 
 import com.anjoyo.liuxiaowei.R;
 
+/**
+ * 静态变量的存放
+ * </BR> </BR> 
+ * By：苦涩 </BR> 
+ * 联系作者：QQ 534429149
+ * */
+
 public class Model {
 
 	// 网络交互地址前段
-	public static String HTTPURL = "http://192.168.1.101/liuxiaowei/";
+	public static String HTTPURL = "http://534429149.haoqie.net/liuxiaowei/";
 	// 店铺获取地址
 	public static String SHOPURL = "shop.php?";
 	// 签到获取地址
 	public static String SELECTSIGNURL = "sign.php";
 	// 店铺列表图片前段地址
-	public static String SHOPLISTIMGURL = "http://192.168.1.101/liuxiaowei/image/";
+	public static String SHOPLISTIMGURL = "http://534429149.haoqie.net/liuxiaowei/image/";
 	// 下载签到图片
-	public static String SIGNLISTIMGURL = "http://192.168.1.101/liuxiaowei/sign/";
+	public static String SIGNLISTIMGURL = "http://534429149.haoqie.net/liuxiaowei/sign/";
 	// 团购获取地址
 	public static String TUANURL = "tuan.php?";
 	// 添加签到地址

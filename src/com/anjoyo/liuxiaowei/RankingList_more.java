@@ -8,6 +8,7 @@ import android.view.Window;
 import android.widget.TextView;
 /**
  * 排行榜-更多模块
+ * </BR> </BR> By：苦涩 </BR> 联系作者：QQ 534429149
  * */
 public class RankingList_more extends Activity {
 

@@ -27,6 +27,7 @@ import android.widget.Toast;
 
 /**
  * 软件框架界面
+ * </BR> </BR> By：苦涩 </BR> 联系作者：QQ 534429149
  * */
 public class FrameActivity extends ActivityGroup {
 
@@ -45,7 +46,6 @@ public class FrameActivity extends ActivityGroup {
 	private android.support.v4.view.ViewPager mViewPager;
 	private PagerAdapter pagerAdapter = null;// 数据源和viewpager之间的桥梁
 
-
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -54,7 +54,7 @@ public class FrameActivity extends ActivityGroup {
 		initView();
 	}
 
-	//初始化控件
+	// 初始化控件
 	private void initView() {
 		mViewPager = (ViewPager) findViewById(R.id.FramePager);
 		// 查找以linearlayout为按钮作用的控件

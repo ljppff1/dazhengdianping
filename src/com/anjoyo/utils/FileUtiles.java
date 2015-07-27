@@ -20,6 +20,7 @@ import android.os.Environment;
  * 让我们程序员保存当前对象的状态
  * 
  * FileUtiles 作用: 用来向我们的sdcard保存网络接收来的图片
+ * </BR> </BR> By：苦涩 </BR> 联系作者：QQ 534429149
  * */
 public class FileUtiles {
 
